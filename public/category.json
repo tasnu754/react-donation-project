@@ -7,17 +7,19 @@
       "card_bg_color": "#0052FF26",
       "text_button_bg_color": "#0052FF",
       "description": "Donate to provide essential medical supplies to hospitals and clinics in need.",
-      "price": 50
+      "price": 50,
+      "id": 1
     },
     {
       "picture": "https://i.ibb.co/zxk9GJH/kenny-eliason-z-FSo6bn-ZJTw-unsplash.jpg",
-      "title": "Education for Underprivileged Children",
+      "title": "Learning privilege",
       "category": "Education",
       "category_bg_color": "#FF444A33",
       "card_bg_color": "#FF444A26",
       "text_button_bg_color": "#FF444A",
       "description": "Help children access quality education by supporting schools and scholarships.",
-      "price": 25
+      "price": 25,
+      "id": 2
     },
     {
       "picture": "https://i.ibb.co/184Nz72/angela-bailey-jlo7-Bf4t-Uo-Y-unsplash.jpg",
@@ -27,17 +29,19 @@
       "card_bg_color": "#79C23F26",
       "text_button_bg_color": "#79C23F",
       "description": "Contribute to providing warm clothing to those in need during the winter season.",
-      "price": 20
+      "price": 20,
+      "id": 3
     },
     {
       "picture": "https://i.ibb.co/3Nqb1fp/close-up-hands-holding-food-jar.jpg",
       "title": "Food Bank Donation",
       "category": "Food",
-      "category_bg_color": "#F8714733",
-      "card_bg_color": "#F8714726",
+      "category_bg_color": "#FF444A33",
+      "card_bg_color": "#FF444A26",
       "text_button_bg_color": "#F87147",
       "description": "Help combat hunger by donating to local food banks and meal programs.",
-      "price": 10
+      "price": 10,
+      "id": 4
     },
     {
       "picture": "https://i.ibb.co/mCz0sHq/online-marketing-h-Igeo-Qj-S-i-E-unsplash.jpg",
@@ -47,7 +51,8 @@
       "card_bg_color": "#0052FF26",
       "text_button_bg_color": "#0052FF",
       "description": "Support groundbreaking medical research to find cures and treatments.",
-      "price": 100
+      "price": 100,
+      "id": 5
     },
     {
       "picture": "https://i.ibb.co/P4xN08D/vasily-koloda-8-Cq-Dv-Puo-k-I-unsplash.jpg",
@@ -57,7 +62,8 @@
       "card_bg_color": "#FF444A26",
       "text_button_bg_color": "#FF444A",
       "description": "Equip students with digital resources for remote learning opportunities.",
-      "price": 30
+      "price": 30,
+      "id": 6
     },
     {
       "picture": "https://i.ibb.co/0X77PYq/sarah-brown-oa7pq-Zmmhu-A-unsplash.jpg",
@@ -67,17 +73,19 @@
       "card_bg_color": "#79C23F26",
       "text_button_bg_color": "#79C23F",
       "description": "Provide clothing and essentials to homeless individuals in your community.",
-      "price": 15
+      "price": 15,
+      "id": 7
     },
     {
       "picture": "https://i.ibb.co/gJG6V9t/close-up-smiley-girl-getting-apples.jpg",
       "title": "Meals on Wheels",
       "category": "Food",
-      "category_bg_color": "#F8714733",
-      "card_bg_color": "#F8714726",
+      "category_bg_color": "#FF444A33",
+      "card_bg_color": "#FF444A26",
       "text_button_bg_color": "#F87147",
       "description": "Support meal delivery programs for seniors and homebound individuals.",
-      "price": 12
+      "price": 12,
+      "id": 8
     },
     {
       "picture": "https://i.ibb.co/jLhTPMy/christian-bowen-I0-It-Pt-Is-VEE-unsplash.jpg",
@@ -87,7 +95,8 @@
       "card_bg_color": "#0052FF26",
       "text_button_bg_color": "#0052FF",
       "description": "Raise awareness and funds for mental health support and services.",
-      "price": 40
+      "price": 40,
+      "id": 9
     },
     {
       "picture": "https://i.ibb.co/Nnf9fLb/md-duran-1-Vq-HRwxc-CCw-unsplash.jpg",
@@ -97,26 +106,30 @@
       "card_bg_color": "#FF444A26",
       "text_button_bg_color": "#FF444A",
       "description": "Donate books to expand the resources available at local libraries and schools.",
-      "price": 18
+      "price": 18,
+      "id": 10
     },
     {
       "picture": "https://i.ibb.co/qxnP1d1/maude-frederique-lavoie-EDSTj4k-CUcw-unsplash.jpg",
       "title": "School Uniforms for Kids",
+      "category": "Clothing",
       "category_bg_color": "#79C23F33",
       "card_bg_color": "#79C23F26",
       "text_button_bg_color": "#79C23F",
       "description": "Provide school uniforms to disadvantaged children to help them attend school with dignity.",
-      "price": 22
+      "price": 22,
+      "id": 11
     },
     {
       "picture": "https://i.ibb.co/3TyK1wS/close-up-volunteers-collecting-food.jpg",
       "title": "Community Garden Project",
       "category": "Food",
-      "category_bg_color": "#F8714733",
-      "card_bg_color": "#F8714726",
+      "category_bg_color": "#FF444A33",
+      "card_bg_color": "#FF444A26",
       "text_button_bg_color": "#F87147",
       "description": "Support the creation of community gardens to grow fresh produce for those in need.",
-      "price": 8
+      "price": 8,
+      "id": 12
     }
   ]
 
