@@ -3,6 +3,7 @@ import Navbar from "../Components/Navbar/Navbar";
 import Home from "../Components/Home/Home";
 import Donation from "../Components/Donation/Donation";
 import ErrorPage from "../Components/ErroePage/ErrorPage";
+import DonationAdd from "../Components/DonationAdd/DonationAdd";
 
 const myRouter = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const myRouter = createBrowserRouter([
         element: <Donation></Donation>,
         loader: () => fetch("/category.json"),
       },
+      {
+          path: "/donation",
+          element: <DonationAdd></DonationAdd>
+      }
     ],
   },
 ]);

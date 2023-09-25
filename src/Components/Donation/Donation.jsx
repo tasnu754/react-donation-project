@@ -14,7 +14,25 @@ const Donation = () => {
         setCardDescript(cardfind);
     }, [param.id, cards])
     
+   
+
+    const handleAddDonation = () => {
+        const additems = [];
+        const get = JSON.parse(localStorage.getItem("DonatedCards"));
+
+        if (!get) {
+            additems.push(cardDescript);
+            localStorage.setItem("DonatedCards", JSON.stringify(additems));
+        }
+        else {
+            additems.push(...get, cardDescript);
+            localStorage.setItem("DonatedCards", JSON.stringify(additems));
+        }
+
+    }
     
+
+
 
     return (
       <div className="w-[85%] mx-auto">
@@ -26,7 +44,10 @@ const Donation = () => {
           />
           <div className="absolute w-full h-[130px] bottom-[0px] bg-black opacity-50 "></div>
           <div className="absolute h-[130px] bottom-[0px] flex items-center">
-            <button className=" ml-10 btn  border-none bg-[#FF444A] text-white h-[56px] hover:bg-purple-700">
+            <button
+              onClick={handleAddDonation}
+              className={` ml-10 btn  border-none bg-[${cardDescript.text_button_bg_color}] text-white h-[56px] hover:bg-purple-700`}
+            >
               Donate ${cardDescript.price}
             </button>
           </div>
@@ -35,6 +56,7 @@ const Donation = () => {
         <p className="text-base font-normal text-gray-500  mb-10">
           {cardDescript.description}
         </p>
+
       </div>
     );
 };
