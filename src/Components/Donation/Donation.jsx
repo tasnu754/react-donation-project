@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import swal from "sweetalert";
 
 
 const Donation = () => {
@@ -23,11 +24,15 @@ const Donation = () => {
         if (!get) {
             additems.push(cardDescript);
             localStorage.setItem("DonatedCards", JSON.stringify(additems));
+
         }
         else {
             additems.push(...get, cardDescript);
             localStorage.setItem("DonatedCards", JSON.stringify(additems));
+            
         }
+        swal("Good job!", "Donation successfull", "success");
+
 
     }
     
@@ -56,6 +61,7 @@ const Donation = () => {
         <p className="text-base font-normal text-gray-500  mb-10">
           {cardDescript.description}
         </p>
+        
 
       </div>
     );

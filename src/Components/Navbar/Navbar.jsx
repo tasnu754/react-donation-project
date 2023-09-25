@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="">
         <div className="w-[85%] mx-auto  flex flex-col md:flex-row justify-between py-12">
           <div>
-            <img src="Logo.png" alt="" />
+            <img src="https://i.ibb.co/F63QwzW/Logo.png" alt="" />
           </div>
 
           <div className="">
