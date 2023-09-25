@@ -52,6 +52,7 @@ const Donation = () => {
             <button
               onClick={handleAddDonation}
               className={` ml-10 btn  border-none bg-[${cardDescript.text_button_bg_color}] text-white h-[56px] hover:bg-purple-700`}
+              style={{ background: cardDescript.text_button_bg_color }}
             >
               Donate ${cardDescript.price}
             </button>
@@ -61,8 +62,6 @@ const Donation = () => {
         <p className="text-base font-normal text-gray-500  mb-10">
           {cardDescript.description}
         </p>
-        
-
       </div>
     );
 };
