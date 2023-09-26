@@ -1,5 +1,5 @@
-import { PieChart, Pie, Tooltip, Cell, Sector } from "recharts";
-import React, { PureComponent } from "react";
+import { PieChart, Pie, Tooltip, Cell } from "recharts";
+// import React, { PureComponent } from "react";
 // import {  ResponsiveContainer } from "recharts";
 
 
@@ -33,7 +33,7 @@ const Statistic = () => {
       innerRadius,
       outerRadius,
       percent,
-      index,
+      
     }) => {
       const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
       const x = cx + radius * Math.cos(-midAngle * RADIAN);
