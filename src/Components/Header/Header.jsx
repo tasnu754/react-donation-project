@@ -8,8 +8,8 @@ const Header = ({ handleInput, handleBtnClick }) => {
           <img
             className="hero h-[50vh] md:h-[60vh] lg:h-[75vh] "
             style={{
-              backgroundImage: "url('healthcare.jpg')",
-              opacity: 0.2,
+              backgroundImage: "url('https://i.ibb.co/J5JmBm4/bannner.png')",
+              opacity: 0.1,
             }}
           />
         </div>
@@ -22,16 +22,16 @@ const Header = ({ handleInput, handleBtnClick }) => {
             {/* Input area  */}
 
             <div className="flex justify-center items-center mt-10">
-              <div className="">
+              <div className="h-[59px]">
                 <input
                   onChange={handleInput}
                   type="text"
                   placeholder="Search Here…"
-                  className="h-[50px] text-black input input-bordered rounded-r-none md:w-[400px] lg:w-[470px]"
+                  className="h-[53px] pb-1 bg-cover text-black input input-bordered rounded-r-none md:w-[400px] lg:w-[470px]"
                 />
                 <button
-                  onClick={ handleBtnClick}
-                  className="h-[50px] btn btn-primary bg-[#FF444A] border-none rounded-l-none"
+                  onClick={handleBtnClick}
+                  className="h-[52px] items-center btn btn-primary bg-[#FF444A] border-none rounded-l-none"
                 >
                   Search
                 </button>
